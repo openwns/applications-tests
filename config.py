@@ -197,7 +197,7 @@ sesTypes = ['CBR', 'Email', 'FTP',
             'VideoTrace', 'WWW', 'WiMAXVideo', 
             'WiMAXVideoTelephony']
 
-applications.evaluation.default.installEvaluation(simulation, serverIdList, clientIdList, 
+applications.evaluation.default.installEvaluation(simulation, serverIdList + clientIdList, 
     sesTypes, settlingTime)
 openwns.evaluation.default.installEvaluation(simulation)
 
